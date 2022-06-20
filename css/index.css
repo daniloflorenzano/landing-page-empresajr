@@ -1,0 +1,128 @@
+.background-logo {
+	background-color: var(--secondary-color);
+	position: absolute;
+	width: 31.8rem;
+	height: 27.8rem;
+	left: -11.8rem;
+	top: -8.9rem;
+	border-radius: 50%;
+}
+
+.logo-aedb {
+	position: absolute;
+	width: 12.2rem;
+	height: 12.2rem;
+	left: 1.6rem;
+	top: 1.2rem;
+}
+
+.vocative {
+	position: absolute;
+	left: 24.783rem;
+	top: 10.777rem;
+	transform: rotate(13.66deg);
+	font-size: 6.3rem;
+}
+
+.title-image {
+	display: block;
+	margin: 0 auto;
+	width: 24rem;
+	height: 24rem;
+}
+
+.list,
+.list p {
+	margin: 1.2rem 0;
+	text-align: justify;
+	font-size: 1.5rem;
+}
+
+.alternating-li p{
+    margin-bottom: 2.4rem;
+}
+
+.list_left-side,
+.list_left-side p {
+	text-align: left;
+}
+
+.list_right-side,
+.list_right-side p {
+	text-align: right;
+}
+
+.ordinary-li::before,
+.list_left-side::before {
+	content: '•';
+	color: var(--secondary-color);
+	display: inline-block;
+	margin-bottom: 1rem;
+	font-size: 2.4rem;
+}
+
+.list_right-side h3::after {
+	content: '•';
+	color: var(--secondary-color);
+	display: inline-block;
+	margin: 0 0 1rem 0.5rem;
+	font-size: 2.4rem;
+}
+
+.logo-slack {
+	width: 15.8rem;
+	height: 4.1rem;
+	margin-top: 3.2rem;
+}
+
+.logo-figma {
+	width: 17.8rem;
+	height: 17.8rem;
+	display: block;
+	margin: -2.5rem 0 -4rem 0;
+}
+
+.logo-powerbi {
+	width: 17.2rem;
+	height: 8.6rem;
+	margin-top: -1rem;
+}
+
+.logo-scrum {
+	width: 20.8rem;
+	height: 11.3rem;
+	display: block;
+	margin: -3.5rem 0 2.4rem 0;
+}
+
+.office-image {
+	width: 33.4rem;
+	height: 22.2rem;
+	display: block;
+	margin: 0 auto;
+}
+
+.button {
+	position: fixed;
+	left: 0;
+	top: calc(100vh - 6.6rem);
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.34);
+    width: 100vw;
+	height: 6.6rem;
+}
+
+.button a {
+	color: black;
+	font-size: 2.4rem;
+	text-decoration: none;
+	padding: 1rem;
+	background: #ececec;
+	border-radius: 3.6rem;
+}
+
