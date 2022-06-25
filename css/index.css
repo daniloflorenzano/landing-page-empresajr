@@ -1,10 +1,10 @@
 .background-logo {
 	background-color: var(--secondary-color);
-	position: absolute;
-	width: 31.8rem;
-	height: 27.8rem;
-	left: -11.8rem;
-	top: -8.9rem;
+	position: relative;
+	top: -80px;
+	left: -80px;
+	width: 250px;
+	height: 250px;
 	border-radius: 50%;
 }
 
@@ -12,14 +12,14 @@
 	position: absolute;
 	width: 12.2rem;
 	height: 12.2rem;
-	left: 1.6rem;
-	top: 1.2rem;
+	left: 35%;
+	top: 35%;
 }
 
 .vocative {
 	position: absolute;
-	left: 24.783rem;
-	top: 10.777rem;
+	left: 250px;
+	top: 165px;
 	transform: rotate(13.66deg);
 	font-size: 6.3rem;
 }
@@ -40,6 +40,10 @@
 
 .alternating-li p{
     margin-bottom: 2.4rem;
+}
+
+.alternating-li > .container {
+	max-width: 500px;
 }
 
 .list_left-side,
